@@ -318,3 +318,7 @@ media.wfd.max_resolution=5
 # USAP
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Zygote
+PRODUCT_PROPERTY_OVERRIDES += \
+zygote.critical_window.minute=10
