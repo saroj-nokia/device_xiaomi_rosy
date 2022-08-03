@@ -262,6 +262,7 @@ rild.libargs=-d/dev/smd0 \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=22,22 \
+ro.telephony.handle_audio_direction_changes_between_call_state_changes=false \
 ro.telephony.iwlan_operation_mode=legacy \
 service.qti.ims.enabled=1
 
