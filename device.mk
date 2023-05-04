@@ -189,11 +189,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor
 
 # FM
-ifeq ($(WITH_FM_RADIO), true)
-    PRODUCT_PACKAGES += \
-        RevampedFMRadio \
-        libqcomfmjni:64
-endif
+PRODUCT_PACKAGES += \
+    RevampedFMRadio \
+    libqcomfmjni:64
 
 # Fingerprint
 PRODUCT_PACKAGES += \
