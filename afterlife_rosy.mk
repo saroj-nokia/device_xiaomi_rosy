@@ -17,6 +17,7 @@ AFTERLIFE_EXTRA := true
 BUILD_GALLERYGO := true
 BUILD_GMAIL := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+BUILD_AOSP_CAMERA := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := afterlife_rosy
