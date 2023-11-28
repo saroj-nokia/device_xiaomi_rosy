@@ -11,12 +11,13 @@ $(call inherit-product, device/xiaomi/rosy/full_rosy.mk)
 $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 AFTERLIFE_MAINTAINER := aepranata
-AFTERLIFE_GAPPS := true
-AFTERLIFE_CORE := true
-AFTERLIFE_EXTRA := true
-BUILD_GALLERYGO := true
-BUILD_GMAIL := true
-BUILD_GCALC := true
+ifeq ($(AFTERLIFE_GAPPS),true)
+    AFTERLIFE_CORE := true
+    AFTERLIFE_EXTRA := true
+    BUILD_GALLERYGO := true
+    BUILD_GMAIL := true
+    BUILD_GCALC := true
+endif
 TARGET_FACE_UNLOCK_SUPPORTED := true
 BUILD_AOSP_CAMERA := true
 
