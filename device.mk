@@ -45,6 +45,8 @@ PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 # Do not generate libartd. (on userdebug/eng as well)
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
 
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
@@ -203,6 +205,10 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
+
+# GalleryPhotoManager
+PRODUCT_PACKAGES += \
+    GalleryPhotoManager
 
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
