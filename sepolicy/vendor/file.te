@@ -29,3 +29,6 @@ type proc_last_kmsg, fs_type, proc_type;
 
 # Rmt
 type debugfs_rmt, debugfs_type, fs_type;
+
+# Thermal
+type thermal_data_file, file_type, data_file_type;
