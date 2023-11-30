@@ -10,7 +10,6 @@ $(call inherit-product, device/xiaomi/rosy/full_rosy.mk)
 # Inherit some common BananaDroid stuff
 $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
-AFTERLIFE_MAINTAINER := aepranata
 ifeq ($(AFTERLIFE_GAPPS),true)
     AFTERLIFE_CORE := true
     AFTERLIFE_EXTRA := true
