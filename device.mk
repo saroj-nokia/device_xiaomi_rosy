@@ -228,8 +228,7 @@ PRODUCT_COPY_FILES += \
 
 # Health HAL
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.1-impl \
-    android.hardware.health@2.1-impl.recovery \
+    android.hardware.health@2.1-impl:64 \
     android.hardware.health@2.1-service
 
 # HIDL
@@ -280,6 +279,10 @@ PRODUCT_PACKAGES += \
 # Light
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi_rosy
+
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
 
 # Media
 PRODUCT_COPY_FILES += \

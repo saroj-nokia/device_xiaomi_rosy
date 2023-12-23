@@ -136,6 +136,10 @@ DEVICE_SPECIFIC_MEDIA_PATH := $(DEVICE_PATH)/qcom-caf/media
 # Memory Config
 MALLOC_SVELTE_FOR_LIBC32 := true
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/battery_charging_enabled
+
 # OTA
 TARGET_OTA_ASSERT_DEVICE := rosy
 
