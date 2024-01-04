@@ -1580,22 +1580,22 @@ vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|62cd64dbb25d082cfdc742fb03931ba0f9a
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|fa120eaa7807ff43f3974a8e0146a8c00c78f623
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
 
-# Sensors - from LA.UM.9.6.2.r1-03600-89xx.0
-system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|2088fddd65857ef518bf51ff7f0735f6fe6d3f83
-system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|cb33842199cce9fe438a413ea170a9537e7a259b
-vendor/bin/sensors.qti|b9f9be38e6c583d806b2361d64c52ecde8b7272a
+# Sensors - from FP3-REL-6.A.020.0-gms-88126537-user
+system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|47383a1a866f3789fc6209060c82d9331864e060
+system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|a94a85b1c1344851784d97db3127db119c760f62
+vendor/bin/sensors.qti|cba682ce9a06fd2e1fbc3e3d63f9df524252b34d
 vendor/lib/hw/activity_recognition.msm8953.so|b8e9528fb29ea3457151e78a40a37920e47bb0df
-vendor/lib/libsensor1.so|5efe912d0fb9cb398038501b9324497309c397fc
-vendor/lib/libsensor_reg.so|733a12b41dc0751b54c01a9ad980f0d039e45ab2
-vendor/lib/libssc_default_listener.so|38cc07c17d39519c7e18d82859e37685df95d30a
-vendor/lib/sensor_calibrate.so|d621d8951f66b82cc2f22e1e4673c74180480c2a
-vendor/lib/sensors.ssc.so|f8483b2fcc2c11e838631be3322f990be60541cf
+vendor/lib/libsensor1.so|59289e1283feea150799fd4f60b0dd146f912990
+vendor/lib/libsensor_reg.so|37916892236519fd374c7fca3b04c3f4940e697e
+vendor/lib/libssc_default_listener.so|d723b6df600f54afb4a6873d71424ef96f5b1bd9
+vendor/lib/sensor_calibrate.so|8ecc78579b7d6f62cc42fc285ba324c96a93a1fc
+vendor/lib/sensors.ssc.so|30d8799c92db27699c90e12243447d7d999fbc85
 vendor/lib64/hw/activity_recognition.msm8953.so|99a419a6afa3e5b95c050559841304f4fd427de4
-vendor/lib64/libsensor1.so|912b29a7ef579bee14ba7cdf0a7eff045eaefd14
-vendor/lib64/libsensor_reg.so|b8cf5b75c30be2a591d69c84fe5639958b1f6569
-vendor/lib64/libssc_default_listener.so|1cb532f9014d7c1fe773ff46b365d6cc4a07e3a6
-vendor/lib64/sensor_calibrate.so|219ee0b1bdcc6a3f0b9261f6fc31838916856c99
-vendor/lib64/sensors.ssc.so|863de4d737c389c059670d8e1592bba58ae33de3
+vendor/lib64/libsensor1.so|f78638f1a87b99284e7aa2daa47e44adced55b70
+vendor/lib64/libsensor_reg.so|c5ba27049d5f36b0877358c154de67080b66e7de
+vendor/lib64/libssc_default_listener.so|d1ca27c768a8746fc92ff5d0ed61699015853d7c
+vendor/lib64/sensor_calibrate.so|572b90e2f5362144c62cdb503bcd9834eca48b10
+vendor/lib64/sensors.ssc.so|aeab604388f7e41e2da7dad76bf22bcf47a632db
 
 # TUI - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|e8d97981d09a4e34907d13bcbbd10f03572c9218
