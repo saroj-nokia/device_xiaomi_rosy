@@ -1303,8 +1303,8 @@ vendor/lib64/libtinyxml2_1.so|ff32deb110acb02cb5def5f3404f9064c1276483
 vendor/lib/hw/vulkan.adreno.so|d8605174a447fe05976ed195318797f73a943ed5
 vendor/lib64/hw/vulkan.adreno.so|242ba0af54ad1467998c8df1345b85d568889a4a
 
-# IRQ balance - from LA.UM.9.6.2.r1-03600-89xx.0
-vendor/bin/msm_irqbalance|c0910fb319bb8287f176f26078241299455baad0
+# IRQ balance - from FP3-REL-6.A.020.0-gms-88126537-user
+vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
 
 # Keystore - from LA.UM.8.6.r1-04700-89xx.0
 vendor/lib/hw/keystore.msm8953.so|ff8b4bb3b6f3a7252faeb1ed647bc3c4fc684623
