@@ -1607,11 +1607,11 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|f6b0e0e951394b609f0cb5c19e83a37
 vendor/lib/vndk-sp/libcutils.so|7276c71299f501f1de8469b8bf1baffcf60180f3
 vendor/lib/vndk/libprocessgroup.so|164204f6902c40dc438c064c88afd0e2749c93f4
 
-# Thermal - from LA.UM.9.6.2.r1-02800-89xx.0
-vendor/bin/thermal-engine|bacf88c801ba037e1e1d2671937404184eb8964b
-vendor/etc/init/init_thermal-engine.rc|f0d14aa4734b2e8afd61a4eed73238187b268f48
-vendor/lib/libthermalclient.so|61becb3664bb8b445cec53c2f173af82ed1ad7ae
-vendor/lib64/libthermalclient.so|8f2411404f56c6d15e6a185124bbc7f8c2adf195
+# Thermal - from FP3-REL-6.A.020.0-gms-88126537-user
+vendor/bin/thermal-engine|7e4bd3bfdf72b669f17cd9befa7f286ebf871c38
+vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
+vendor/lib/libthermalclient.so|b9c1bfd3aa5ee2d092941141bf9f6e456ee2fb43
+vendor/lib64/libthermalclient.so|f95bc07fbb05944489c2890397c4a603a7cbe021
 
 # Time services - from LA.UM.9.6.2.r1-03600-89xx.0
 -vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
