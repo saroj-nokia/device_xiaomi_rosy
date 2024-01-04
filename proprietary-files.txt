@@ -1045,25 +1045,25 @@ vendor/bin/hvdcp_opti|3de1af4b7dd9b4e5938bbeedb6e84ad50b415510
 vendor/lib/hw/consumerir.default.so|b836d25b42b12e88ab0ff4e47c08321a6ddc5285
 vendor/lib64/hw/consumerir.default.so|c7f8fb64d8bda3b16f81700b6d0549e5e2d99531
 
-# DPM - from LA.UM.9.6.2.r1-03600-89xx.0
+# DPM - from FP3-REL-6.A.020.0-gms-88126537-user
 framework/tcmclient.jar|cdd1ea7143a5a7acc3909b5cfa706650179647c7
-system_ext/bin/dpmd|11ee284b40fb8276636520a3ca8e3558be914e62
+system_ext/bin/dpmd|dc94ffe90c6658b0bc99c64f68517c4048d0321a
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
 system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
 system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
 system_ext/etc/permissions/dpmapi.xml|9158c9789cc7135a685b3fb27f8cc27108b51fef
 system_ext/framework/com.qti.dpmframework.jar|96a29e28b3abffb9223daadd67459e3f5a3271df
 system_ext/framework/dpmapi.jar|2e2fbe2257a697b96a644c774136da0554430d3f
-system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|7003110f7d18b164929960ee0a67797ca9a524fe
-system_ext/lib64/libdpmctmgr.so|268d69e2a07adbee4e212320a2b2c5a1d35ffe5a
-system_ext/lib64/libdpmfdmgr.so|22c24e9787dc0895021c2a9dae45d73f4c93027e
-system_ext/lib64/libdpmframework.so|e9ec52a13e7550ec65b00a7a2b5de36e16d950e4
-system_ext/lib64/libdpmtcm.so|d2af6381acd715b453ed65ceb3c72a94938f45d5
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|74ec0d8e2ef3d7e3b0a730da9b97237921778ac4
-vendor/bin/dpmQmiMgr|4fe936478b0da1ee20c6222234b80d478a72cc2a
+system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|b992e1f565f7b8b814eac0c88517543e6d0de603
+system_ext/lib64/libdpmctmgr.so|8a687fce30df9483a96065e6cc4154f03562dfa9
+system_ext/lib64/libdpmfdmgr.so|bf3666db17e77da3a303c10579baec0bd018089f
+system_ext/lib64/libdpmframework.so|235fbb48b47baebd48dbe56f72c77d97ca12c07c
+system_ext/lib64/libdpmtcm.so|dff3d3dbacd18ed55b5758a174f5016ef9e7a896
+-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|9e64514b1bba80c90fec15e9b44628f9a993b8b1
+vendor/bin/dpmQmiMgr|61a421804559b0e461439c19088acc01b871982a
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|c5c893e86d38b8aa8cd277ccb8b011fb2f19995e
-vendor/lib64/libdpmqmihal.so|ffcd85e1f6bf7d54f37953edc2cb2c4a61fc894a
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|d9f1aa7f93b928f42499d613d20ccbc60f279097
+vendor/lib64/libdpmqmihal.so|41eb89e66ba065c43a5eb79cd3c72cef0ee167aa
 
 # DSP - from LA.UM.9.6.2.r1-03600-89xx.0
 vendor/bin/dspservice|c7809e32581d5c6efac65a3a7689f43526c17bb8
