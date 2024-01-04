@@ -1345,11 +1345,11 @@ vendor/lib/libvqzip.so|c56eaffef2066339493fa6810930e58556891027
 vendor/lib64/libmmosal.so|d400435a7bb49c1589efd0a63274cbf6d53f0c7b
 vendor/lib64/libvpplibrary.so|89b49c112864bf0d33c07c78fb7750d4bd7eb663
 
-# Peripheral - from LA.UM.9.6.2.r1-03600-89xx.0
-vendor/bin/pm-proxy|4d9a24cf5d90f2f320fb838a190fcef9e070ef57
-vendor/bin/pm-service|212168358c65533c434e54be7b6fed0fd02a099c
-vendor/lib/libperipheral_client.so|76dc87152bd06e0291fbde2f6bf3b8b14325b604
-vendor/lib64/libperipheral_client.so|8cb65f4c93719767048dd7b1b845473fe6074ff7
+# Peripheral - from FP3-REL-6.A.020.0-gms-88126537-user
+vendor/bin/pm-proxy|910437c11108aa66e803bbc760ce3998d141a6b4
+vendor/bin/pm-service|98827a6bf6693033a7c767e3fb4f097b9075a0ef
+vendor/lib/libperipheral_client.so|7ace2f7c8c7ebd986db6c7796de7237e584e658b
+vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 
 # Power-off alarm - from LA.UM.9.6.2.r1-03600-89xx.0
 -product/app/PowerOffAlarm/PowerOffAlarm.apk|d00cdfa02d6fcaea819e4cb7eb8ba502bc92be4c
