@@ -1351,13 +1351,13 @@ vendor/bin/pm-service|98827a6bf6693033a7c767e3fb4f097b9075a0ef
 vendor/lib/libperipheral_client.so|7ace2f7c8c7ebd986db6c7796de7237e584e658b
 vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 
-# Power-off alarm - from LA.UM.9.6.2.r1-03600-89xx.0
--product/app/PowerOffAlarm/PowerOffAlarm.apk|d00cdfa02d6fcaea819e4cb7eb8ba502bc92be4c
-vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|6f58edbe898a0582b02b688ec8a47a57a50707ec
-vendor/bin/power_off_alarm|a22dad49a912473d92bf9c111ef7de6dd927b6f2
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
-vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|0119fa4d87505bc5d9426ec8ffe56d9dd3bc9e4f
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|c7c418cfc889a89ea4f21bf828f626c75a2017c3
+# Power-off alarm - from FP3-REL-6.A.020.0-gms-88126537-user
+-product/app/PowerOffAlarm/PowerOffAlarm.apk|426c18285909031b9c4525baf4e511ebeb74afb7
+vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|e8f29b90facd4d605dca41644f5a0dc77f6d2e9b
+vendor/bin/power_off_alarm|b41ffb912ae8db9c3abd7e3c94e9e77160cf7ff6
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
+vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|fdc8542c93c3e0572a172040bb6bb741baba348e
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|f34f3f363932160ef659ec21543b0d33f0215dbc
 
 # QMI - from LA.UM.9.6.2.r1-03600-89xx.0
 system_ext/etc/permissions/qti_libpermissions.xml|593bcb72cce68ceb0a70f50bcae7d460114e7c62
