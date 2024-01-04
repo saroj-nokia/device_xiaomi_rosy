@@ -1310,9 +1310,9 @@ vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
 vendor/lib/hw/keystore.msm8953.so|ff8b4bb3b6f3a7252faeb1ed647bc3c4fc684623
 vendor/lib64/hw/keystore.msm8953.so|1c0fd8bfd45877c40b72aa2714055cddd2104133
 
-# Listen - from LA.UM.9.6.2.r1-03600-89xx.0
-vendor/lib/libadpcmdec.so|7a38d6b28b27cf663681ad077614a03164418f91
-vendor/lib/libsmwrapper.so|f0ee761c02c888e77d947bb87d162d9379bc1530
+# Listen - from FP3-REL-6.A.020.0-gms-88126537-user
+vendor/lib/libadpcmdec.so|452d1123ab4e12c4444df33322f309e2ecc2e1e4
+vendor/lib/libsmwrapper.so|1376bf567a0a225d1ac8c623db4ace9a7e3804f7
 
 # Media - from LA.UM.9.6.2.r1-03300-89xx.0
 lib/libFileMux.so|4e05cd5e9913311ad17543d204adcd6d60cc8754
