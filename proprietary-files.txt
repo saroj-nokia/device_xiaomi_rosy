@@ -1613,8 +1613,8 @@ vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
 vendor/lib/libthermalclient.so|b9c1bfd3aa5ee2d092941141bf9f6e456ee2fb43
 vendor/lib64/libthermalclient.so|f95bc07fbb05944489c2890397c4a603a7cbe021
 
-# Time services - from LA.UM.9.6.2.r1-03600-89xx.0
--vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
-vendor/bin/time_daemon|a27ac4aeafb41158b96046edbd553ae76835b4ed
+# Time services - from FP3-REL-6.A.020.0-gms-88126537-user
+-vendor/app/TimeService/TimeService.apk|8f80d84574540940c1349d3488827c7ecff2cc96
+vendor/bin/time_daemon|3fdbe5c7aeee2fc7e8b699bedd7309f768aae5c7
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
-vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
+vendor/lib64/libtime_genoff.so|5f9b4a016db1f2d96a6b8281b6cb88d87e4cdd63
