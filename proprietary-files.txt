@@ -1575,6 +1575,7 @@ vendor/lib64/vendor.qti.hardware.radio.ims@1.6.so|2d6fc4dab39c4d332984e8b940bd16
 vendor/lib64/vendor.qti.ims.callcapability@1.0.so|4068a3900aaa0045da986a9f0991cc66afdd48f5
 vendor/lib64/vendor.qti.ims.callinfo@1.0.so|418f0bf4b3af5d15dd44efe1c5606772b1770e09
 vendor/lib64/vendor.qti.ims.factory@1.0.so|21c91c2aea181c6bb0f66790fd82944dcf117a6d
+vendor/lib64/vendor.qti.ims.factory@1.1.so|b4c803a2d5f3bc7a1de93957d163405168308db4
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|515630e936f4a40655995b58daf72b3cb374be8f
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|aa98e9afc4cac9fa5be51bbba359a74973f9cf27
 vendor/lib64/vendor.qti.ims.rcsconfig@2.1.so|62cd64dbb25d082cfdc742fb03931ba0f9abe434
