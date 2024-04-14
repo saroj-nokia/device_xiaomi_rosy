@@ -1,2 +1,0 @@
-#============= rild ==============
-binder_call(rild, qtidataservices_app)
