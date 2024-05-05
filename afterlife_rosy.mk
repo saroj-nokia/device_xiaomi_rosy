@@ -1,6 +1,5 @@
 #
 # Copyright (C) 2018 The LineageOS Project
-# Copyright (C) 2023 AtigaOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,19 +12,13 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/afterlife_rosy.mk
+# Inherit some common LineageOS stuff
+$(call inherit-product, vendor/afterlife/config/common.mk)
 
-COMMON_LUNCH_CHOICES := \
-    afterlife_rosy-user \
-    afterlife_rosy-userdebug \
-    afterlife_rosy-eng
+# Inherit from rosy device
+$(call inherit-product, device/xiaomi/rosy/full_rosy.mk)
 
-PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_rosy.mk
-
-COMMON_LUNCH_CHOICES += \
-    lineage_rosy-user \
-    lineage_rosy-userdebug \
-    lineage_rosy-eng
+# Device identifier. This must come after all inclusions
+PRODUCT_NAME := afterlife_rosy
