@@ -16,6 +16,8 @@
 
 # Inherit some common LineageOS stuff
 $(call inherit-product, vendor/afterlife/config/common.mk)
+AFTERLIFE_MAINTAINER := aepranata
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/full_rosy.mk)
