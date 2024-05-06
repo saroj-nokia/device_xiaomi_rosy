@@ -17,6 +17,7 @@
 # Inherit some common xdroid stuff
 $(call inherit-product, vendor/xdroid/config/common.mk)
 XDROID_MAINTAINER := aepranata
+XD_BOOT := 720
 
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/full_rosy.mk)
