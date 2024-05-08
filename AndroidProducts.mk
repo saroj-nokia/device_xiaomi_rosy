@@ -23,6 +23,14 @@ COMMON_LUNCH_CHOICES := \
     afterlife_rosy-eng
 
 PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/droidx_rosy.mk
+
+COMMON_LUNCH_CHOICES += \
+    droidx_rosy-ap1a-user \
+    droidx_rosy-ap1a-userdebug \
+    droidx_rosy-ap1a-eng
+
+PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/lineage_rosy.mk
 
 COMMON_LUNCH_CHOICES += \
