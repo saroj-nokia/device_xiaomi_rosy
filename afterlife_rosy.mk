@@ -15,7 +15,7 @@
 #
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/afterlife/config/common.mk)
+$(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 AFTERLIFE_MAINTAINER := aepranata
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
