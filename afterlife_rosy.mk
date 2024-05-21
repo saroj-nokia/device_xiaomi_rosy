@@ -24,3 +24,5 @@ $(call inherit-product, device/xiaomi/rosy/full_rosy.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := afterlife_rosy
+
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-afterlife
