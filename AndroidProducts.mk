@@ -23,6 +23,14 @@ COMMON_LUNCH_CHOICES := \
     afterlife_rosy-eng
 
 PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/blaze_rosy.mk
+
+COMMON_LUNCH_CHOICES += \
+    blaze_rosy-user \
+    blaze_rosy-userdebug \
+    blaze_rosy-eng
+
+PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/droidx_rosy.mk
 
 COMMON_LUNCH_CHOICES += \
