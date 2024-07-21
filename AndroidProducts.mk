@@ -14,13 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/afterlife_rosy.mk
-
-COMMON_LUNCH_CHOICES := \
-    afterlife_rosy-user \
-    afterlife_rosy-userdebug \
-    afterlife_rosy-eng
 
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/lineage_rosy.mk
