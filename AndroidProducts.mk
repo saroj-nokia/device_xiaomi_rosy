@@ -16,8 +16,8 @@
 
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/infinity_rosy.mk
+    $(LOCAL_DIR)/lineage_rosy.mk
 COMMON_LUNCH_CHOICES += \
-    infinity_rosy-user \
-    infinity_rosy-userdebug \
-    infinity_rosy-eng
+    lineage_rosy-user \
+    lineage_rosy-userdebug \
+    lineage_rosy-eng
