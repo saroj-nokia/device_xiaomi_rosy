@@ -25,13 +25,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
-# Matrixx
-MATRIXX_BUILD_TYPE := Unofficial
-MATRIXX_MAINTAINER := saroj-nokia
-MATRIXX_CHIPSET := MSM8953
-MATRIXX_BATTERY := 3300mAh
-MATRIXX_DISPLAY := 1440x720
-
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_rosy
 PRODUCT_DEVICE := rosy
@@ -51,3 +44,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR_PRODUCT_NAME := rosy
 
+#İnfinity-X Stuff
+INFINITY_BUILD_TYPE := UNOFFICIAL
+INFINITY_MAINTAINER := saroj-nokia
+TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := false
+TARGET_BUILD_VIMUSIC := false
