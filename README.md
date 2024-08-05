@@ -11,7 +11,7 @@ Copyright (C) 2017 - The LineageOS Project
 | GPU                     | Adreno 506                              |
 | Memory                  | 2/3/4 GB                                |
 | Shipped Android Version | 7.1.1                                   |
-| Storage                 | 16/32 GB                                |
+| Storage                 | 16/32/64 GB                             |
 | MicroSD                 | Up to 128 GB                            |
 | Battery                 | 3300 mAh (non-removable)                |
 | Dimensions              | 151.8 x 72.8 x 7.7 mm                   |
