@@ -25,21 +25,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
-# Device config
-TARGET_HAS_UDFPS := false
-TARGET_ENABLE_BLUR := true
-TARGET_EXCLUDES_AUDIOFX := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BUILD_PACKAGE := 1
-TARGET_LAUNCHER :=1
-
-# Debugging
-TARGET_INCLUDE_MATLOG := false
-
-# Maintainer
-ALPHA_BUILD_TYPE := Unofficial
-ALPHA_MAINTAINER := Saroj-Nokia
-
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_rosy
 PRODUCT_DEVICE := rosy
