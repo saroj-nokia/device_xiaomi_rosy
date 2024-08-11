@@ -176,7 +176,7 @@ ro.hwui.text_large_cache_height=1024
 ro.cutoff_voltage_mv=3400
 
 #set device emmc size
-ro.emmc_size=16GB
+ro.emmc_size=32GB
 
 #Enable FR27607-RIL to send ONLINE cmd in bootup
 #persist.radio.poweron_opt=1
