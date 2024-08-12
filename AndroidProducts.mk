@@ -18,6 +18,6 @@
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/lineage_rosy.mk
 COMMON_LUNCH_CHOICES += \
-    lineage_rosy-user \
-    lineage_rosy-userdebug \
-    lineage_rosy-eng
+    lineage_rosy-ap2a-user \
+    lineage_rosy-ap2a-userdebug \
+    lineage_rosy-ap2a-eng
