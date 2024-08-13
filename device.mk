@@ -399,7 +399,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-    # RemovePackages
+# RemovePackages
 PRODUCT_PACKAGES += \
     RemovePackages
 
