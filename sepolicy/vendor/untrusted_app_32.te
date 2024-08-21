@@ -1,2 +1,0 @@
-# Allow read access to /proc/loadavg
-allow untrusted_app_32 proc_loadavg:file { read };
