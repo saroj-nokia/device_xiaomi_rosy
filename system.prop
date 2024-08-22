@@ -207,3 +207,7 @@ ro.vendor.qti.va_aosp.support=1
 
 # Advertise system_as_root
 ro.build.system_root_image=true
+
+# Treble
+ro.treble.enabled=true
+
