@@ -45,9 +45,6 @@ TARGET_SCREEN_WIDTH := 720
 # Gapps
 include vendor/gapps/arm64/arm64-vendor.mk
 
-# Gcam go
-$(call inherit-product-if-exists, $(GCGOP_VENDOR_DIR)/config.mk)
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
