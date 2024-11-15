@@ -16,8 +16,8 @@
 
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_rosy.mk
+    $(LOCAL_DIR)/lmodroid_rosy.mk
 COMMON_LUNCH_CHOICES += \
-    lineage_rosy-ap2a-user \
-    lineage_rosy-ap2a-userdebug \
-    lineage_rosy-ap2a-eng
+    lmodroid_rosy-ap2a-user \
+    lmodroid_rosy-ap2a-userdebug \
+    lmodroid_rosy-ap2a-eng
